@@ -1,0 +1,6 @@
+pillow
+torch
+torchvision
+pyqt5
+opencv-python
+numpy
