@@ -94,7 +94,7 @@ class MainWindow(QTabWidget):
         self.setTabIcon(1, QIcon('imgs/qicon.png'))
 
     def change_img(self):
-        openfile_name = QFileDialog.getOpenFileName(self, 'Select File', '', 'Image files(*.jpg , *.png, *.jpeg)')
+        openfile_name = QFileDialog.getOpenFileName(self, 'Select File', '', 'Image files(*.jpg *.png *.jpeg)')
         print(openfile_name)
         img_name = openfile_name[0]
         if img_name == '':
