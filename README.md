@@ -1,13 +1,7 @@
 # Garbage Classifiation System From Kaggle
 This is a simple garbage classifier trained with resnet50 using pytorch with above 90% accuracy. The result could be 'glass','paper','cardboard','plastic','metal',and 'trash'.
 
-## Windows Usage
-Download the zip folder first.<br>
-Unzip the folder, double click `main.py` and run the app.<br>
-If you wanna know how to train the model, the whole training process is written in `train.ipynb`. You can train model on your own.
-
-
-## Linux Usage
+## Usage
 Make sure you have **python and pip** install in your system.
 ```sh
 sudo apt install python
